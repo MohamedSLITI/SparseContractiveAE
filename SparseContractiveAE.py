@@ -74,7 +74,7 @@ with imageio.get_writer("sparse_recon.gif", mode='I', duration=0.5) as writer:
         img = imageio.v2.imread(fname)
         writer.append_data(img)
 
-print("✅ Sparse AE GIF saved as sparse_recon.gif")
+print("Sparse AE GIF saved as sparse_recon.gif")
 
 # -----------------------------
 # Contractive Autoencoder
